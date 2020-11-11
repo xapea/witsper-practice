@@ -1,0 +1,244 @@
+img {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #001D94;
+}
+
+.container {
+  background-image: url(assets/banner_xl-1.png);
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-color: #001D94;
+  width: 100%;
+  padding: 0px 0px 100px 0px;
+}
+
+.nav {
+  position: fixed;
+  top: calc(50% - 180px);
+  right: 30px;
+  z-index: 500;
+}
+
+.cover {
+  background-color: #001D94;
+}
+.cover img {
+  width: 100%;
+}
+
+.a-title img {
+  margin: 25px auto 0px auto;
+}
+
+.a1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  width: 942px;
+  padding: 5px;
+}
+.a1 .pic {
+  height: 154px;
+  width: 300px;
+  margin: 5px;
+}
+.a1 .pic img {
+  width: 104%;
+  left: -7px;
+}
+
+.a2 {
+  display: flex;
+  margin: 10px auto;
+  width: 942px;
+  padding: 5px;
+}
+.a2 .pic {
+  width: 223px;
+  height: 223px;
+  margin: 5px;
+}
+.a2 .pic img {
+  width: 100%;
+}
+
+.a3 {
+  width: 942px;
+  margin: 0px auto 0px auto;
+}
+.a3 .pic {
+  width: 920px;
+  margin: 0px auto 20px auto;
+}
+.a3 .pic img {
+  width: 100%;
+}
+.a3 .a3-1 img {
+  width: 101%;
+  left: -4px;
+  top: 7px;
+  margin: 15px auto;
+}
+
+.a4 {
+  display: flex;
+  width: 942px;
+  margin: -8px auto 40px auto;
+  padding: 0px 5px;
+}
+.a4 .pic {
+  width: 300px;
+  height: 400px;
+  margin: 0px 5px;
+}
+.a4 .pic img {
+  width: 100%;
+}
+
+.b-title img {
+  margin: 0px auto 0px auto;
+}
+
+.b1 {
+  width: 942px;
+  margin: 0px auto;
+  padding: 5px;
+}
+.b1 .pic {
+  width: 920px;
+  height: 180px;
+  margin: 5px;
+}
+.b1 .pic img {
+  width: 100%;
+}
+.b1 .con {
+  display: flex;
+}
+.b1 .con .pic {
+  width: 454px;
+  height: 720px;
+}
+.b1 .con .ba-s {
+  height: 720px;
+}
+.b1 .con .ba-s img {
+  width: 100%;
+  margin: 0px;
+}
+
+.c-title img {
+  margin: 20px auto 10px auto;
+}
+
+.c1 {
+  width: 942px;
+  margin: 15px auto 0px auto;
+}
+.c1 .pic-a {
+  width: 920px;
+  height: 180px;
+  margin: 5px 10px;
+}
+.c1 .pic-a img {
+  width: 100%;
+}
+.c1 .pic-b {
+  width: 920px;
+  height: 350px;
+  margin: 10px;
+}
+.c1 .pic-b img {
+  width: 100%;
+}
+
+.c2 {
+  display: flex;
+  width: 942px;
+  margin: 0px auto 15px auto;
+  padding: 5px;
+}
+.c2 .pic {
+  width: 300px;
+  height: 400px;
+  margin: 5px;
+}
+.c2 .pic img {
+  width: 100%;
+}
+
+.d-title img {
+  margin: 20px auto 0px auto;
+}
+
+.d1 {
+  width: 942px;
+  margin: 15px auto 0px auto;
+}
+.d1 .pic {
+  width: 920px;
+  height: 300px;
+  margin: 15px 10px;
+}
+.d1 .pic img {
+  width: 100%;
+}
+.d1 .pic-s {
+  height: 350px;
+}
+
+.d2 {
+  width: 942px;
+  display: flex;
+  margin: 0px auto;
+  padding: 0px 5px;
+}
+.d2 img {
+  width: 455px;
+  margin: 0px 5px;
+}
+
+.d3 {
+  width: 942px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  padding: 5px;
+}
+.d3 img {
+  width: 300px;
+  margin: 5px;
+}
+
+.e-title img {
+  margin: 25px auto 10px auto;
+}
+
+.e1 {
+  margin: 15px 0px 0px 0px;
+}
+.e1 .pic {
+  width: 919px;
+  margin: 15px auto;
+}
+.e1 .pic img {
+  width: 100%;
+}
+
+.button {
+  height: 50px;
+  margin: 50px 0px 100px 0px;
+}
+.button img {
+  margin: 0px auto 100px auto;
+}
